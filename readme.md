@@ -11,7 +11,7 @@ Ex: 705.484.450-52<br>
 5 x  8 = 40<br>
 ...
 
-02 - Somar todos os resultados das multiplicações e aplicar na fórmula:
+02 - Somar todos os resultados das multiplicações e aplicar na fórmula:<br>
 primeiroDigito = 11 - (total % 11);<br>
 Obs: Caso o resultado seja maior que 9, considere o digito igual à 0.
 
@@ -22,7 +22,7 @@ um por uma sequencia regressiva de 11 números.<br>
 5 x  9 = 45<br>
 ...
 
-04 - Somar todos os resultados e aplicar na fórmula:
+04 - Somar todos os resultados e aplicar na fórmula:<br>
 segundoDigito = 11 - (total % 11);<br>
 Assim como antes, se o número for maior que 9, considere o digito igual à 0.<br>
 
