@@ -10,7 +10,7 @@ function ValidarCpf(cpf) {
 ValidarCpf.prototype.validar = function() {
 	if (typeof this.cpfLimpo === 'undefined') return false;
 	if (this.cpfLimpo.length !== 11) return false;
-	if (this.isSequencia()) return false;
+	if (this.nSequencia()) return false;
 	
 	const cpfParcial = this.cpfLimpo.slice(0, -2);
 	const digito1 = this.criaDigito(cpfParcial);
@@ -33,7 +33,8 @@ ValidarCpf.prototype.criaDigito = function(cpfParcial) {
 	return digito > 9 ? '0': String(digito);
 };
 
-ValidarCpf.prototype.isSequencia = function() {
+// 123.123.123-87 => CPF seria valido? Considerei que ñ
+ValidarCpf.prototype.nSequencia = function() {
 	const sequencia = this.cpfLimpo[0].repeat(this.cpfLimpo.length);
 	return sequencia === this.cpfLimpo;
 };
