@@ -12,7 +12,7 @@ Ex: 705.484.450-52<br>
 ...
 
 02 - Somar todos os resultados das multiplicações e aplicar na fórmula:
-primeiroDigito = 11 - (total % 11);
+primeiroDigito = 11 - (total % 11);<br>
 Obs: Caso o resultado seja maior que 9, considere o digito igual à 0.
 
 03 - Verificação do segundo digito, pegar os 10 digitos, multiplicar cada
@@ -23,7 +23,7 @@ um por uma sequencia regressiva de 11 números.<br>
 ...
 
 04 - Somar todos os resultados e aplicar na fórmula:
-segundoDigito = 11 - (total % 11);
-Assim como antes, se o número for maior que 9, considere o digito igual à 0.
+segundoDigito = 11 - (total % 11);<br>
+Assim como antes, se o número for maior que 9, considere o digito igual à 0.<br>
 
 Mãos a obra.
